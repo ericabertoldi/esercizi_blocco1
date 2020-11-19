@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int res;
-    for (int i=2; i>1; i=i*2) {
+    for (int i=2; i>1; i=i+2) {
         res=i;
         cout<<res<<endl;
     }
